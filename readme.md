@@ -13,7 +13,7 @@ Perfect for testing, learning Move coin mechanics, or deploying a personal devne
 - Built using the Sui Move coin framework  
 
 
-After deploying the nova module, the mint function lets you issue new coins to any wallet.
+## After deploying the nova module, the mint function lets you issue new coins to any wallet.
 
 sui client call \
   --module nova \
@@ -28,3 +28,5 @@ Only treasury holders can mint coins.
 1000 is the amount to mint, and <recipient_address> is the destination wallet.
 
 This call is done after the module is published, i.e., after deployment.
+##
+The Nova Coin module helps beginners understand how coins and treasury objects work on Sui. It demonstrates how init and mint control coin creation and distribution, and provides hands-on experience with on-chain smart contract interactions. This project serves as a solid foundation for learning Move and blockchain development.
